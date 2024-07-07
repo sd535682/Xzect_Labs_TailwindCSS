@@ -1,0 +1,1230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./input.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+    <link rel="icon" href="./logos/icon.svg" type="image/icon type" />
+    <title>Tailwag - A Xzect Project</title>
+  </head>
+  <body
+    class="line-height-lh mx-4 overflow-x-hidden font-sans text-fsize text-primary md:mx-10 lg:mx-10"
+  >
+    <!-- header -->
+    <header>
+      <nav class="container">
+        <div
+          class="flex max-w-screen-xl flex-wrap items-center justify-between py-2 md:py-3 lg:py-5"
+        >
+          <a href="#" class="flex items-center">
+            <h3 class="self-center text-2xl font-bold text-amber-600">
+              <i class="fa-solid fa-paw h-8 text-amber-600"></i>
+              <span class="text-yellow-950">Tail</span>wag
+            </h3>
+          </a>
+          <div class="flex items-center md:order-2">
+            <a href="#" class="mr-4 hidden text-base font-extrabold md:block"
+              >Login</a
+            >
+            <button
+              type="button"
+              class="relative mr-10 hidden rounded-full border-2 border-black bg-indigo-800 px-8 py-3 font-semibold text-white shadow-3xl transition-all duration-300 ease-in hover:shadow-none md:block lg:mr-0"
+            >
+              Sign up free
+            </button>
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 lg:hidden"
+              aria-controls="navbar-cta"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-5 w-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="hidden w-full items-center justify-between lg:order-1 lg:flex lg:w-auto"
+            id="navbar-cta"
+          >
+            <ul
+              class="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:p-0 lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-white"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block rounded py-2 pl-3 pr-4 font-semibold lg:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block rounded py-2 pl-3 pr-4 font-bold lg:p-0"
+                  >Breeds&nbsp;&nbsp;&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-down fa-xs hidden font-semibold"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block rounded py-2 pl-3 pr-4 font-bold lg:p-0"
+                  >Prices&nbsp;&nbsp;&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-down fa-xs font-semibold"
+                  ></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block rounded py-2 pl-3 pr-4 font-bold lg:p-0"
+                  >Gallery&nbsp;&nbsp;&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-down fa-xs font-semibold"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header -->
+    <!-- hero section 1 -->
+    <section>
+      <div class="container">
+        <div class="my-10 md:my-12 lg:my-[100px]">
+          <div
+            class="grid grid-cols-1 items-center justify-center gap-10 lg:grid-cols-[1fr_0.8fr] lg:gap-[60px]"
+          >
+            <div class="text-center lg:text-left">
+              <h1
+                class="mb-6 font-dm-sans text-3xl font-extrabold text-black md:text-5xl lg:text-7xl"
+              >
+                Providing Special Care For Your Pets! Love 💖
+              </h1>
+              <p class="mb-8">
+                We offer special services for special pets! Whether it's
+                personalized grooming, tailored diets, or exclusive play areas,
+                our dedicated care ensures every pet receives the attention they
+                deserve.
+              </p>
+              <a href="#">
+                <div
+                  class="inline-block rounded-full border-2 border-black bg-indigo-800 px-8 py-3 text-base font-semibold text-white shadow-3xl transition-all duration-300 ease-in hover:shadow-none"
+                >
+                  View our services
+                </div>
+              </a>
+            </div>
+            <div class="flex justify-center lg:justify-start">
+              <img
+                src="./images/banner1.png"
+                alt="banner1"
+                width="420"
+                height="532"
+                class="max-w-full scale-110"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 1 -->
+    <!-- hero section 2 -->
+    <section>
+      <div class="container">
+        <div class="my-10 md:my-12 lg:my-[100px]">
+          <div class="mb-16 text-center lg:mb-20">
+            <h1
+              class="font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+            >
+              What We Do 🐶
+            </h1>
+          </div>
+          <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+            <!-- card 1 -->
+            <div
+              class="flex flex-col gap-6 rounded-lg border-2 border-black bg-rose-100 p-8 transition-all duration-300 hover:bg-white"
+            >
+              <div>
+                <i class="fa-solid fa-scissors fa-3x"></i>
+              </div>
+              <h1 class="text-2xl font-semibold text-black">Grooming</h1>
+              <p class="line-clamp-3">
+                Our grooming services are designed to keep your pets looking
+                their best. Whether it's a simple bath and brush or a full
+                groom, our experienced groomers ensure your pet receives
+                top-notch care.
+              </p>
+            </div>
+            <!-- card 1 -->
+            <!-- card 2 -->
+            <div
+              class="flex flex-col gap-6 rounded-lg border-2 border-black bg-rose-100 p-8 transition-all duration-300 hover:bg-white"
+            >
+              <div>
+                <i class="fa-solid fa-calendar-check fa-3x"></i>
+              </div>
+              <h1 class="text-2xl font-semibold text-black">Veterinary 24/7</h1>
+              <p class="line-clamp-3">
+                We provide around-the-clock veterinary care to ensure your pets
+                are always in good hands. Our team of dedicated veterinarians
+                and support staff is available day and night to handle
+                emergencies and routine care.
+              </p>
+            </div>
+            <!-- card 2 -->
+            <!-- card 3 -->
+            <div
+              class="flex flex-col gap-6 rounded-lg border-2 border-black bg-rose-100 p-8 transition-all duration-300 hover:bg-white"
+            >
+              <div>
+                <i class="fa-solid fa-person-running fa-3x"></i>
+              </div>
+              <h1 class="text-2xl font-semibold text-black">Fun Activities</h1>
+              <p class="line-clamp-3">
+                Engage your pets with our fun activities designed to keep them
+                active and entertained. From playtime sessions to interactive
+                toys, we offer a variety of activities that cater to their
+                physical and mental well-being.
+              </p>
+            </div>
+            <!-- card 3 -->
+            <!-- card 4 -->
+            <div
+              class="flex flex-col gap-6 rounded-lg border-2 border-black bg-rose-100 p-8 transition-all duration-300 hover:bg-white"
+            >
+              <div>
+                <i class="fa-solid fa-dog fa-3x"></i>
+              </div>
+              <h1 class="text-2xl font-semibold">Pet Boarding</h1>
+              <p class="line-clamp-3">
+                Our pet boarding facilities provide a comfortable and safe
+                environment for your pets while you're away. Each pet receives
+                individual attention and care, ensuring they feel at home during
+                their stay with us.
+              </p>
+            </div>
+            <!-- card 4 -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 2 -->
+    <!-- hero section 3 -->
+    <section>
+      <div class="container">
+        <div class="my-10 md:my-12 lg:my-[100px]">
+          <div
+            class="grid grid-cols-1 items-center justify-center gap-[60px] md:grid-cols-[0.8fr_1fr]"
+          >
+            <div class="flex justify-center overflow-hidden lg:justify-start">
+              <img
+                src="./images/banner3.jpg"
+                alt="banner1"
+                width="450"
+                height="532"
+                class="max-w-full rounded-t-[90%] rounded-bl-2xl rounded-br-2xl border-x-4 border-b-8 border-t-4 border-black"
+              />
+            </div>
+            <div class="text-left">
+              <h1
+                class="mb-6 font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+              >
+                Providing Special Care For Your Pets! Love 😍
+              </h1>
+              <p class="mb-8 line-clamp-3">
+                At our facility, we go above and beyond to cater to the unique
+                needs of each pet. From luxurious spa treatments to customized
+                exercise regimes, we prioritize their well-being and happiness.
+                Our expert staff are trained to provide affectionate care and
+                are always ready to accommodate any special requests or
+                requirements your pet may have. Whether it's a fluffy cat or an
+                energetic pup, we're here to make their stay with us as
+                comfortable and enjoyable as possible.
+              </p>
+              <p class="mb-8 md:line-clamp-2">
+                We offer special services for special pets! Whether it's
+                personalized grooming, tailored diets, or exclusive play areas,
+                our dedicated care ensures every pet receives the attention they
+                deserve.
+              </p>
+              <a href="#">
+                <div
+                  class="inline-block rounded-full border-2 border-black bg-indigo-800 px-8 py-3 text-base font-semibold text-white shadow-3xl transition-all duration-300 ease-in hover:shadow-none"
+                >
+                  View our services
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 3 -->
+    <!-- hero section 4 -->
+    <section>
+      <div class="container">
+        <div class="my-10 md:my-12 lg:my-[100px]">
+          <div class="mb-16 text-center lg:mb-20">
+            <h1
+              class="font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+            >
+              Want a pet for your loved ones? 🧑🏽‍❤️‍👩🏻
+            </h1>
+          </div>
+          <!-- slider -->
+          <div class="flex flex-col gap-14">
+            <div class="relative w-full gap-6">
+              <div class="flex animate-loopscroll_f gap-6">
+                <div class="flex shrink-0 items-center justify-around gap-6">
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Pug
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Labrador
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    German Shepherd
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Bulldog
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Golden Retriever
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Beagle
+                  </div>
+                </div>
+                <div class="flex shrink-0 items-center justify-around gap-6">
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Pug
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Labrador
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    German Shepherd
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Bulldog
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Golden Retriever
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Beagle
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative w-full">
+              <div class="flex animate-loopscroll_b gap-6">
+                <div class="flex shrink-0 items-center justify-around gap-6">
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Chihuahua
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Rottweiler
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Siberian Husky
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Doberman
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Great Dane
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Boxer
+                  </div>
+                </div>
+                <div class="flex shrink-0 items-center justify-around gap-6">
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Chihuahua
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Rottweiler
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Siberian Husky
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Doberman
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Great Dane
+                  </div>
+                  <div
+                    class="relative whitespace-nowrap rounded-full border-2 border-black bg-rose-100 px-8 py-3 font-bold text-black shadow-3xl"
+                  >
+                    Boxer
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slider -->
+        </div>
+      </div>
+    </section>
+    <!-- hero section 4 -->
+    <!-- hero section 5 -->
+    <section>
+      <div class="container">
+        <div class="grid grid-cols-1 text-center md:grid-cols-2 md:text-left">
+          <h1
+            class="font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+          >
+            Featured pets that are impossible to resist
+          </h1>
+          <p>
+            Whether you prefer the playful energy of a Labrador Retriever, known
+            for their loyalty and enthusiasm, or the regal charm of a Siberian
+            Husky with their striking blue eyes and adventurous spirit, our
+            collection has something for every dog lover.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 5 -->
+    <!-- hero section 5 cards -->
+    <section>
+      <div class="container my-16">
+        <div class="grid gap-x-8 gap-y-8 md:grid-cols-2 xl:grid-cols-3">
+          <!-- cards 1 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/1.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Rex&nbsp;&nbsp;•&nbsp;&nbsp;Spaniel
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.3</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Excels in herding with his intelligent.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 5000
+              </div></a
+            >
+          </div>
+          <!-- cards 1 -->
+          <!-- cards 2 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/2.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Milo&nbsp;&nbsp;•&nbsp;&nbsp;Pug
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.5</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Beloved for friendly and strong loyalty.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 9500
+              </div></a
+            >
+          </div>
+          <!-- cards 2 -->
+          <!-- cards 3 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/4.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Bella&nbsp;&nbsp;•&nbsp;&nbsp;Pomeranian
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.0</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Known for her cuteness and intelligence.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 7000
+              </div></a
+            >
+          </div>
+          <!-- cards 3 -->
+          <!-- cards 4 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/5.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Charlie&nbsp;&nbsp;•&nbsp;&nbsp;Retriever
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.7</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Loyal companion known for his intelligence.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 8500
+              </div></a
+            >
+          </div>
+          <!-- cards 4 -->
+          <!-- cards 5 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/6.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Lucky&nbsp;&nbsp;•&nbsp;&nbsp;Collie
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.6</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Excelling in farm work and agility competitions.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 3500
+              </div></a
+            >
+          </div>
+          <!-- cards 5 -->
+          <!-- cards 6 -->
+          <div
+            class="group rounded-2xl bg-rose-100 p-8 transition duration-300"
+          >
+            <div class="h-auto w-auto overflow-hidden rounded-xl">
+              <img
+                src="./cards/7.jpg"
+                alt="card1"
+                class="transition-transform group-hover:scale-110"
+              />
+            </div>
+            <div class="my-4 flex justify-between">
+              <a href="#"
+                ><h1 class="text-sm font-semibold hover:text-indigo-900">
+                  Martha&nbsp;&nbsp;•&nbsp;&nbsp;Pitbull
+                </h1></a
+              >
+              <h1 class="text-sm font-semibold">⭐&nbsp;4.2</h1>
+            </div>
+            <a href="#"
+              ><h1
+                class="my-6 text-2xl font-extrabold transition-colors group-hover:text-indigo-900"
+              >
+                Excels in protecting sheeps and family.
+              </h1></a
+            >
+            <a href="#">
+              <div
+                class="text-semibold rounded-full border-2 border-black bg-rose-400 px-8 py-3 text-center text-base font-semibold text-black shadow-3xl hover:bg-indigo-900 hover:text-white"
+              >
+                Purchase only Rs. 4500
+              </div></a
+            >
+          </div>
+          <!-- cards 6 -->
+        </div>
+      </div>
+    </section>
+    <!-- hero section 5 cards -->
+    <!-- hero section 6 -->
+    <section>
+      <section>
+        <div class="container">
+          <div class="my-10 md:my-12 lg:my-[100px]">
+            <div
+              class="grid grid-cols-1 items-center justify-center gap-[60px] md:grid-cols-[1fr_0.8fr]"
+            >
+              <div class="text-left">
+                <h1
+                  class="mb-6 font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+                >
+                  Pet Adoption Process from our shop 🤔
+                </h1>
+                <p class="mb-8">
+                  Adopting a pet is a deeply fulfilling journey that starts with
+                  selecting the ideal companion to enrich your home and life.
+                  Whether you choose to adopt from a local shelter, rescue
+                  organization.
+                </p>
+                <div class="mb-8 flex flex-col gap-4 font-bold text-black">
+                  <span class="flex items-center gap-4"
+                    ><i class="fa-solid fa-circle-check"></i>
+                    <p>
+                      Explore local shelters and rescue organizations.
+                    </p></span
+                  >
+                  <span class="flex items-center gap-4"
+                    ><i class="fa-solid fa-circle-check"></i>
+                    <p>Visit and interact to find your perfect match.</p></span
+                  >
+                  <span class="flex items-center gap-4"
+                    ><i class="fa-solid fa-circle-check"></i>
+                    <p>Finalize paperwork for your new companion.</p></span
+                  >
+                </div>
+
+                <a href="#">
+                  <div
+                    class="inline-block rounded-full border-2 border-black bg-indigo-800 px-8 py-3 text-base font-semibold text-white shadow-3xl transition-all duration-300 ease-in hover:shadow-none"
+                  >
+                    Book Appointment
+                  </div>
+                </a>
+              </div>
+              <div class="flex justify-center overflow-hidden lg:justify-start">
+                <img
+                  src="./images/banner6.jpg"
+                  alt="banner1"
+                  width="450"
+                  height="532"
+                  class="max-w-full rounded-t-[90%] rounded-bl-2xl rounded-br-2xl border-x-4 border-b-8 border-t-4 border-black"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- hero section 6 -->
+    <!-- hero section 7 -->
+    <section>
+      <div class="container px-8">
+        <div>
+          <h1
+            class="mb-10 text-center font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+          >
+            Happy Customers
+          </h1>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <!-- review 1 -->
+          <div class="flex flex-col gap-8">
+            <span class="text-amber-500"
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+            ></span>
+            <p>
+              "I adopted Max, a Labrador Retriever, from the local shelter last
+              month, and he has been an absolute joy! His gentle demeanor and
+              boundless energy have brought so much happiness into our family."
+            </p>
+            <div class="flex gap-4">
+              <img
+                src="https://randomuser.me/api/portraits/women/47.jpg"
+                alt=""
+                class="h-14 w-14 rounded-full border-4 border-black"
+              />
+              <div class="content-center">
+                <h3 class="text-lg font-bold">Kristen</h3>
+                <p class="text-sm">Florida</p>
+              </div>
+            </div>
+          </div>
+          <!-- review 1 -->
+          <!-- review 2 -->
+          <div class="flex flex-col gap-8">
+            <span class="text-amber-500"
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+              ><i class="fa-solid fa-star fa-xl"></i
+            ></span>
+            <p>
+              "I adopted Bella, a German Shepherd, from the rescue center last
+              year, and she has been an incredible companion! Her intelligence
+              and loyalty have brought so much joy and protection to our
+              family."
+            </p>
+            <div class="flex gap-4">
+              <img
+                src="https://randomuser.me/api/portraits/women/22.jpg"
+                alt=""
+                class="h-14 w-14 rounded-full border-4 border-black"
+              />
+              <div class="content-center">
+                <h3 class="text-lg font-bold">Bella</h3>
+                <p class="text-sm">California</p>
+              </div>
+            </div>
+          </div>
+          <!-- review 2 -->
+        </div>
+      </div>
+    </section>
+    <!-- hero section 7 -->
+    <!-- hero section 8 -->
+    <section>
+      <div class="container">
+        <div class="my-24 grid grid-cols-1 gap-8 md:grid-cols-2 md:text-left">
+          <div class="flex flex-col justify-center gap-8">
+            <h1
+              class="font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+            >
+              Frequently Asked Question
+            </h1>
+            <p>
+              Let's take a moment to address some frequently asked questions
+              (FAQs) that users commonly inquire about with us regarding our
+              adoption process and pet care information.
+            </p>
+          </div>
+          <!-- accordion -->
+          <div
+            class="rounded-md border-4 border-black p-4"
+            id="accordion-flush"
+            data-accordion="open"
+            data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white"
+            data-inactive-classes="text-gray-500 dark:text-gray-400"
+          >
+            <h2 id="accordion-flush-heading-1">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between gap-3 border-b border-gray-200 py-5 font-medium text-gray-500 dark:border-gray-700 dark:text-gray-400 rtl:text-right"
+                data-accordion-target="#accordion-flush-body-1"
+                aria-expanded="true"
+                aria-controls="accordion-flush-body-1"
+              >
+                <span class="text-xl font-bold"
+                  >Q. How can I adopt a dog from your store?</span
+                >
+                <svg
+                  data-accordion-icon
+                  class="h-3 w-3 shrink-0 rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div
+              id="accordion-flush-body-1"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-1"
+            >
+              <div class="border-b border-gray-200 py-5 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  To adopt a dog from our store, start by visiting us during our
+                  adoption hours. Our friendly staff will guide you through the
+                  process of meeting our available dogs and help you find a
+                  perfect match. You'll need to fill out an adoption
+                  application, meet with the dog you're interested in, and if
+                  it's a good fit, finalize the adoption with an adoption fee.
+                </p>
+              </div>
+            </div>
+            <h2 id="accordion-flush-heading-2">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between gap-3 border-b border-gray-200 py-5 font-medium text-gray-500 dark:border-gray-700 dark:text-gray-400 rtl:text-right"
+                data-accordion-target="#accordion-flush-body-2"
+                aria-expanded="false"
+                aria-controls="accordion-flush-body-2"
+              >
+                <span class="text-xl font-bold"
+                  >Q. What is included in the adoption process?</span
+                >
+                <svg
+                  data-accordion-icon
+                  class="h-3 w-3 shrink-0 rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div
+              id="accordion-flush-body-2"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-2"
+            >
+              <div class="border-b border-gray-200 py-5 dark:border-gray-700">
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Our adoption process includes a comprehensive health check-up,
+                  vaccinations up to date, and microchipping for identification.
+                  Each adopted dog also comes with a starter pack of food, basic
+                  supplies, and valuable information on care and training. Our
+                  goal is to ensure each dog finds a loving and responsible
+                  forever home.
+                </p>
+              </div>
+            </div>
+            <h2 id="accordion-flush-heading-3">
+              <button
+                type="button"
+                class="flex w-full items-center justify-between gap-3 border-b border-gray-200 py-5 font-medium text-gray-500 dark:border-gray-700 dark:text-gray-400 rtl:text-right"
+                data-accordion-target="#accordion-flush-body-3"
+                aria-expanded="false"
+                aria-controls="accordion-flush-body-3"
+              >
+                <span class="text-xl font-bold"
+                  >Q. Can I adopt if I live outside the local area?</span
+                >
+                <svg
+                  data-accordion-icon
+                  class="h-3 w-3 shrink-0 rotate-180"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5 5 1 1 5"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div
+              id="accordion-flush-body-3"
+              class="hidden"
+              aria-labelledby="accordion-flush-heading-3"
+            >
+              <div>
+                <p class="mb-2 text-gray-500 dark:text-gray-400">
+                  Yes, we welcome adopters from outside our immediate area.
+                  However, please note that some dogs may require a home check
+                  or additional steps to ensure their well-being and transition.
+                  We strive to facilitate adoptions wherever possible, ensuring
+                  each dog finds a suitable home where they will be loved and
+                  cared for.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section 8 -->
+    <!-- hero section 9 -->
+    <section>
+      <div class="my-24 flex flex-col items-center gap-8">
+        <div class="flex flex-col gap-4 text-center">
+          <h1
+            class="font-dm-sans text-3xl font-extrabold text-black lg:text-5xl"
+          >
+            Download Now
+          </h1>
+          <p>Available for both IOS & Android</p>
+        </div>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+          <img
+            src="https://masco-html.netlify.app/assets/img/icons/icon-round-apple-app-store.svg"
+            alt=""
+          />
+          <img
+            src="https://masco-html.netlify.app/assets/img/icons/icon-round-google-play-store.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+    <!-- hero section 9 -->
+    <!-- footer -->
+    <footer>
+      <div
+        class="xxl:gap-x-[134px] my-24 grid gap-x-16 gap-y-10 text-black sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_repeat(3,_auto)] xl:gap-x-24"
+      >
+        <!-- Footer Widget Item -->
+        <div class="flex flex-col gap-y-7 md:col-span-3 lg:col-span-1">
+          <!-- Footer Logo -->
+          <a href="#" class="flex items-center">
+            <h3 class="self-center text-2xl font-bold text-amber-600">
+              <i class="fa-solid fa-paw h-8 text-amber-600">&nbsp;</i>
+              <span class="text-yellow-950">Tail</span>wag
+            </h3>
+          </a>
+          <!-- Footer Content -->
+          <div>
+            <!-- Footer About Text -->
+            <div class="lg:max-w-[416px]">
+              Discover your perfect furry friend. We specialize in matching dogs
+              with loving homes.
+            </div>
+            <!-- Footer Mail -->
+            <a
+              href="mailto:sd535682@gmail.com"
+              class="my-6 block underline-offset-4 transition-all duration-300 hover:underline"
+              >sd535682@gmail.com</a
+            >
+            <!-- Footer Social Link -->
+            <div class="flex flex-wrap gap-5">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-slate-200 text-sm transition-all duration-300 hover:bg-indigo-800 hover:text-white"
+                aria-label="twitter"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-slate-200 text-sm transition-all duration-300 hover:bg-indigo-800 hover:text-white"
+                aria-label="facebook"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-slate-200 text-sm transition-all duration-300 hover:bg-indigo-800 hover:text-white"
+                aria-label="instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://www.github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-slate-200 text-sm transition-all duration-300 hover:bg-indigo-800 hover:text-white"
+                aria-label="github"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Footer Content -->
+        </div>
+        <!-- Footer Widget Item -->
+
+        <!-- Footer Widget Item -->
+        <div class="flex flex-col gap-y-7 md:col-span-1 lg:col-span-1">
+          <!-- Footer Widget Title -->
+          <div class="text-xl font-semibold capitalize">Breeds</div>
+          <!-- Footer Navbar -->
+          <ul class="flex flex-col gap-y-[10px] capitalize">
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/"
+              >
+                Pug
+              </a>
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/about"
+                >Doberman</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/services"
+                >Husky</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/pricing"
+                >Kangal</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/contact"
+                >Shepherd</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Footer Widget Item -->
+
+        <!-- Footer Widget Item -->
+        <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
+          <!-- Footer Title -->
+          <div class="text-xl font-semibold capitalize">Useful links</div>
+          <!-- Footer Title -->
+
+          <!-- Footer Navbar -->
+          <ul class="flex flex-col gap-y-[10px] capitalize">
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/signup"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/login"
+                >Settings</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/error-404"
+                >Orders</a
+              >
+            </li>
+            <li>
+              <a
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                href="/reset-password"
+                >Help</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Footer Widget Item-->
+
+        <!-- Footer Widget Item -->
+        <div class="flex flex-col gap-y-6 md:col-span-1 lg:col-span-1">
+          <!-- Footer Title -->
+          <div class="text-xl font-semibold capitalize">Contact</div>
+          <!-- Footer Title -->
+
+          <!-- Footer Navbar -->
+          <ul class="flex flex-col gap-y-[10px] capitalize">
+            <li>
+              <a
+                href="https://www.example.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                >Support</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.example.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                >Privacy policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.example.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                >Terms & Conditions</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.example.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:opcity-100 text-ColorBlack underline-offset-4 transition-all duration-300 ease-linear hover:underline"
+                >Strategy</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Footer Widget Item -->
+      </div>
+      <hr class="border-ColorBlack/10" />
+      <div>
+        <!-- Footer Bottom Spacing -->
+        <div class="py-[18px]">
+          <!-- Section Container -->
+          <div class="container-default">
+            <div class="text-center">
+              © 2024 Copyright: Subhadeep Das - XZECT Labs
+            </div>
+          </div>
+          <!-- Section Container -->
+        </div>
+        <!-- Footer Bottom Spacing -->
+      </div>
+    </footer>
+    <!-- footer -->
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
